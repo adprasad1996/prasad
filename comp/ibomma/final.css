@@ -1,0 +1,26 @@
+*{
+      margin: 0px;
+}
+ul{
+      display: flex;
+      list-style-type: none;
+      background-color: aquamarine;
+      justify-content: space-around;
+      padding: 10px;
+      
+      
+}
+ul li{
+      background-color: azure;
+      padding: 8px;
+      border-radius: 7px;
+      cursor: pointer;
+      color: #ffffff;
+      text-decoration: none;
+      
+}
+ul li:hover{
+      background-color: red;
+      color: #ffffff;
+      font-weight: bold;
+}

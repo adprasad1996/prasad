@@ -1,0 +1,347 @@
+*{
+      margin: 0px;
+      padding: 0px;
+}
+
+.main-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+}
+
+.icon-heading{
+      font-size: 25px;
+}
+.delivery-card{      
+      background-color: gray;
+      border-radius: 20px;
+      height: 30px;
+      margin-left: 20px;
+      
+
+}
+.free-heading{
+      background-color: rgb(210, 51, 23);
+      display: none;
+      border-radius: 10px;
+      color: #ffffff;
+      font-weight: 700;
+      height: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+    
+      
+}
+.delivery-heading{      
+      color: #ffffff;
+      font-weight: 700;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+}
+.search-card input{
+      outline: none;
+      border: none;
+      background-color: transparent;
+      padding: 5px;   
+}
+.search-card{
+      width: 400px;
+      background-color: rgb(203, 178, 178);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+}
+.card-btn{
+      background-color:  rgb(210, 51, 23);
+      border-radius: 10px;
+      color: #ffffff;
+      font-weight: bold;
+      outline: none;
+      border: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 30px;
+ 
+}
+.content{
+      background-color: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      width: 100%;
+      height: 100%;      
+      top: 0;
+      left: 0;
+      z-index: 10;  
+}
+.content-right{
+      background-color: #ffffff;
+      position: fixed;
+      width: 300px;
+      height: 100%; 
+      z-index: 10;    
+      top: 0;
+      left: 0;
+      transition-duration: 300ms;
+
+}
+.content-left{
+      background-color: #ffffff;
+      position: fixed;
+      width: 300px;
+      height: 100%;     
+      top: 0;
+      left: -100%;
+      transition-duration: 300ms;
+
+}
+.close-icon{
+      position: absolute;
+      right: 1rem;
+      top: 1rem;  
+
+
+}
+.ul-card{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      color: gray;
+      font-weight: bold;
+}
+.li-card{
+      display: flex;
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+.icon-card{      
+      background-color: black;      
+      margin-right: 20px;
+      border-radius: 10px;
+      color: #ffffff;
+      padding: 3px;
+
+}
+
+
+/*  Feachred component styles*/
+
+
+.bg-container{
+      height: 500px;         
+      padding: 10px;
+      position: relative;   
+      width: 100%;
+      height: 100%;  
+        
+  
+}
+
+.img-container{          
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      transition-duration: 500ms;      
+      height: 50vh;   
+      width: 95vw;
+      
+
+}
+.left-arrow{
+      position: absolute;
+      left: 2%;
+      top: 40%;
+      background-color: rgb(189, 33, 33);
+      color: #ffffff;
+      border-radius: 10px;
+      padding: 5px;
+      
+     
+}
+
+.right-arrow{
+      position: absolute;
+      right: 2%;
+      top: 40%;
+      background-color: rgb(189, 33, 33);
+      color: #ffffff;
+      border-radius: 10px;
+      padding: 5px;
+      
+}
+
+    
+/*delivery css styles*/
+.delivery-text{
+      font-weight: bold;
+      font-size: 24px;
+      font-family: Roboto;
+}
+
+.delivery-img{
+      width: 550px;
+      padding: 20px 20px 10px 20px;
+      margin-left: 20px;
+      height: 500px;
+}
+.text-card{
+      padding: 25px 20px 10px 30px;
+      margin-left: 20px;
+}
+.get-app-text{
+      font-size: 18px;
+      color: rgb(30, 125, 125);
+      font-weight: bold;
+}
+.app-heading{
+      font-size: 24px;
+      font-weight: bold;
+}
+.app-description{
+      padding: 10px 10px 10px 0px;
+      width: 80%;
+      font-weight: bold;
+}
+.dark-btn{
+      width: 200px;
+
+}
+
+
+/*top pics styles*/
+.top-pics-heading{
+      text-align: center;
+      color: rgb(202, 106, 31);
+      font-weight: bold;
+      font-size: 24px;
+}
+.top-pic-container{
+          
+      
+
+      
+     
+}
+
+.top-pic-card{      
+      border-radius: 10px;
+      border-radius: 15px;   
+      margin-bottom: 20px; 
+      margin-top: 20px;
+      position: relative;       
+      width: 300px;
+      padding-left: 10px;     
+      
+}
+.top-pic-item{
+      position: absolute;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.6);
+      height: 100%;
+      width: 100%;
+
+      
+     
+}
+.top-pic-card img{
+      height: 200px;      
+      width: 300px;
+      border-radius: 25px;   
+    
+      
+}
+.top-pic-card button{
+     position: absolute;
+     bottom: 4%; 
+     margin-left: 35%;
+     padding: 5px;
+     border-radius: 10px;
+     background-color: transparent;
+     color: #ffffff;
+     font-weight: bold;
+     border: 1px solid #ffffff;
+    
+      
+}
+
+/*meal styles css*/
+.meal-container{
+      padding: 0px;
+      margin: auto;
+}
+
+.meal-heading{
+      text-align: center;
+      color: rgb(202, 106, 31);
+      font-weight: bold;
+      font-size: 24px;
+}
+.buttons-card{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+.buttons-card button{
+      background-color: orange;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 8px;
+      margin: 15px 20px 15px;
+      border: none;
+      width: 100px;
+      padding: 5px;
+}
+.buttons-card button:hover{
+      background-color: #ffffff;
+      color: orange;
+      font-weight: bold;
+      padding: 5px;
+      border-radius: 8px;
+      margin: 15px 20px 15px;
+      border: 1px solid orangered;
+      width: 100px;
+}
+.meal-item{
+      padding: 15px;
+      position: relative;
+      margin-bottom: 20px;
+}
+
+.meal-item img{
+      height: 200px;
+      width: 280px;
+      border-radius: 20px;
+      position: relative;
+}
+.meal-item img:hover{
+      scale: 1.1;
+      animation-duration: 300ms;
+      
+}
+.price-card{
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+}
+.price-text{
+      background-color: rgb(255, 60, 0);
+      color: #ffffff;
+      font-weight: bold;
+      padding: 10px;
+      height: 60px;
+      width: 60px;
+      border-radius: 30px;
+      font-size: 14px;
+      margin-top: -30px;      
+      z-index: 10;
+      position: relative;
+      border: 5px solid rgb(214, 211, 211);
+      text-align: center;
+}

@@ -1,0 +1,30 @@
+.container{
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+}
+
+.cardContainer{
+      background-color: aquamarine;
+      border-radius: 20px;
+      margin: 20px;
+      padding: 20px;
+      
+}
+ 
+.ulContainer{
+      list-style-type: none;
+      display: flex;   
+      
+}
+@media screen and (max-width: 768px){
+      .cardContainer{
+            background-color: #d83535;
+            border-radius: 20px;
+            margin: 20px;
+            padding: 20px;
+      }
+
+
+}
+
