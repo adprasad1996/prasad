@@ -4,7 +4,7 @@ function Delivery() {
   return (
     <div className='pb-3 pt-3 pl-5  pt-2'>
       <h3 className='text-danger text-center delivery-text'>Quick Delivery App</h3>
-      <div className='d-flex'>
+      <div className='delivery-card-container'>
             <img className='delivery-img' alt="app"  src = "https://res.cloudinary.com/ehizeex-shop/image/upload/v1672676822/NetflixApp/FC_two_phones.6ec9a842f905769677f9_m91off.webp"/>
             <div className='d-flex flex-column justify-content-start text-card'>
                   <p className='get-app-text'>Get the App</p>

@@ -18,12 +18,12 @@
       border-radius: 20px;
       height: 30px;
       margin-left: 20px;
+      display:block;     
       
 
 }
 .free-heading{
-      background-color: rgb(210, 51, 23);
-      display: none;
+      background-color: rgb(210, 51, 23);      
       border-radius: 10px;
       color: #ffffff;
       font-weight: 700;
@@ -173,6 +173,11 @@
 
     
 /*delivery css styles*/
+
+.delivery-card-container{
+      display: flex;
+      flex-direction: row;      
+}
 .delivery-text{
       font-weight: bold;
       font-size: 24px;
@@ -206,6 +211,21 @@
 .dark-btn{
       width: 200px;
 
+}
+@media screen and (max-width: 768px) {
+      .delivery-card-container{
+            display: flex;
+            flex-direction: column;      
+      }
+      .delivery-img{
+            width: 300px;
+            padding: 15px 15px 10px 20px;            
+            height: 350px;
+      }
+
+      
+} {
+      
 }
 
 
